@@ -11,6 +11,69 @@
         <content type="html"><![CDATA[<h2 id="这是第一篇文章"><a href="#这是第一篇文章" class="headerlink" title="这是第一篇文章"></a>这是第一篇文章</h2>]]></content>
       
       
+      <categories>
+          
+          <category> 1 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第三篇文章</title>
+      <link href="/2022/12/06/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/12/06/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是第三篇文章"><a href="#这是第三篇文章" class="headerlink" title="这是第三篇文章"></a>这是第三篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 3 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇文章</title>
+      <link href="/2022/12/06/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/12/06/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是第二篇文章"><a href="#这是第二篇文章" class="headerlink" title="这是第二篇文章"></a>这是第二篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 2 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第四篇文章</title>
+      <link href="/2022/12/06/%E7%AC%AC%E5%9B%9B%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/12/06/%E7%AC%AC%E5%9B%9B%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是第四篇文章"><a href="#这是第四篇文章" class="headerlink" title="这是第四篇文章"></a>这是第四篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 4 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -46,7 +109,7 @@
       <link href="/js/runtime.js"/>
       <url>/js/runtime.js</url>
       
-        <content type="html"><![CDATA[var now = new Date; function createtime() { now.setTime(now.getTime() + 1e3);var e = new Date("12/06/2022 00:00:00"), o = new Date("12/06/2022 00:00:00"), r = (now - o)/ 1e3 / 60 / 60 / 24, i = Math.floor(r), n = (now - o) / 1e3 / 60 / 60 - 24 * i, s = Math.floor(n); 1 == String(s).length && (s = "0" + s); var l = (now - o) / 1e3 / 60 - 1440 * i - 60 * s, g = Math.floor(l); 1 == String(g).length && (g = "0" + g); var d = (now - o) / 1e3 - 86400 * i - 3600*s - 60*g, b = Math.round(d); 1 == String(b).length && (b = "0" + b); let c = ""; c = s < 18 && s >= 9?`<img class='boardsign' src='https://img.shields.io/badge/F%E5%B0%8F%E5%B1%8B-%E7%A7%91%E7%A0%94%E6%91%B8%E9%B1%BC%E4%B8%AD%F0%9F%90%9F-1ade23?style=social&logo=Buy%20Me%20A%20Coffee' title='咸鱼翻身ing~'><br> 俺滴小破站居然运行了 ${i} 天 ${s} 小时 ${g} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> `:`<img class='boardsign' src='https://img.shields.io/badge/F%E5%B0%8F%E5%B1%8B-%E4%B8%8B%E7%8F%AD%E4%BC%91%E6%81%AF%E5%95%A6%F0%9F%8C%99-6adea8?style=social&logo=coffeescript' title='休息休息~'><br> 俺滴小破站居然运行了 ${i} 天 ${s} 小时 ${g} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> `,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=c)}setInterval((()=>{createtime()}),1e3);]]></content>
+        <content type="html"><![CDATA[var now = new Date; function createtime() { now.setTime(now.getTime() + 1e3);var e = new Date("12/06/2022 00:00:00"), o = new Date("12/06/2022 00:00:00"), r = (now - o)/ 1e3 / 60 / 60 / 24, i = Math.floor(r), n = (now - o) / 1e3 / 60 / 60 - 24 * i, s = Math.floor(n); 1 == String(s).length && (s = "0" + s); var l = (now - o) / 1e3 / 60 - 1440 * i - 60 * s, g = Math.floor(l); 1 == String(g).length && (g = "0" + g); var d = (now - o) / 1e3 - 86400 * i - 3600*s - 60*g, b = Math.round(d); 1 == String(b).length && (b = "0" + b); let c = ""; c = s < 18 && s >= 9?`<img class='boardsign' src='https://img.shields.io/badge/%E7%8E%B0%E5%9C%A8%E6%98%AF-%E7%99%BD%E5%A4%A9-ff69b4?style=social&logo=Furry%20Network' title='咸鱼翻身ing~'><br> 网站居然运行了 ${i} 天 ${s} 小时 ${g} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> `:`<img class='boardsign' src='https://img.shields.io/badge/%E7%8E%B0%E5%9C%A8%E6%98%AF-%E5%A4%9C%E6%99%9A-ff69b4?style=social&logo=Furry%20Network' title='休息休息~'><br> 网站居然运行了 ${i} 天 ${s} 小时 ${g} 分 ${b} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> `,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=c)}setInterval((()=>{createtime()}),1e3);]]></content>
       
     </entry>
     
