@@ -4978,27 +4978,17 @@ span.mathjax-overflow {
 .snackbar-css {
   border-radius: 5px !important;
 }
-[data-theme="dark"] #web_bg {
-  background: url(https://pic.imgdb.cn/item/6391883ab1fccdcd36a22a20.jpg);
-  background-attachment: local;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: url(https://pic.imgdb.cn/item/6399e9a2b1fccdcd360a0d8b.jpg) !important;
-    background-attachment: local !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background-image: url(https://pic.imgdb.cn/item/6399e9a2b1fccdcd360a0d8b.jpg);
   }
+}
+[data-theme="dark"] #web_bg {
+  background-image: url(https://pic.imgdb.cn/item/6391883ab1fccdcd36a22a20.jpg);
+}
+@media screen and (max-width: 800px) {
   [data-theme="dark"] #web_bg {
-    background: url(https://pic.imgdb.cn/item/6399e9a2b1fccdcd360a0d8b.jpg) !important;
-    background-attachment: local !important;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+    background-image: url(https://pic.imgdb.cn/item/6399e9a2b1fccdcd360a0d8b.jpg);
   }
 }
 #article-container .btn-center {
