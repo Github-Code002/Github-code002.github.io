@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
   let blogNameWidth, menusWidth, searchWidth, $nav
   let mobileSidebarOpen = false
+  // 添加的两行代码修复屏幕宽度缩减后菜单栏变成两行
+  $darkmodeBtEle = document.querySelector('#darkmodeBt')
+  let darkmodeBtWidth = $darkmodeBtEle && $darkmodeBtEle.offsetWidth
 
   const adjustMenu = (init) => {
     if (init) {
@@ -14,8 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     let hideMenuIndex = ''
-    if (window.innerWidth <= 768) hideMenuIndex = true
-    else hideMenuIndex = blogNameWidth + menusWidth + searchWidth > $nav.offsetWidth - 120
+    if (window.innerWidth <= 900) hideMenuIndex = true
+    // 在searchwidth后面加个+ darkmodeBtWidth
+    else hideMenuIndex = blogNameWidth + menusWidth + searchWidth + darkmodeBtWidth > $nav.offsetWidth - 120
 
     if (hideMenuIndex) {
       $nav.classList.add('hide-menu')
